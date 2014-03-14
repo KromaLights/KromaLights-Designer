@@ -1,0 +1,35 @@
+/*
+
+Copyright 2014 KromaLights
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+*/
+
+.root {
+    -fx-glass-color: rgba(170, 170, 200, 0.9);
+}
+
+.modal-dialog {
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-alignment: center;
+    -fx-font-size: 20;
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-glass-color, 90%), -fx-glass-color);
+    -fx-border-color: derive(-fx-glass-color, -90%);
+    -fx-border-width: 5;
+    -fx-background-insets: 12;
+    -fx-border-insets: 10;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
